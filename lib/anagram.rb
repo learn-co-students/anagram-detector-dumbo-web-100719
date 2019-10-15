@@ -7,12 +7,9 @@ class Anagram
     end
 
     def match(comp_word)
-        # word.split("").sort
-        a=[]
         comp_word.select do |w|
           w.split("").sort == word.split("").sort
           end
-       
     end
 end
 
